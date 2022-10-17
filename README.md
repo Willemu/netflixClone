@@ -24,15 +24,3 @@ This project is Netflix simple clone built with Vuejs
   - Get your api key here `http://www.omdbapi.com`
 4. Run `npm run serve` to start the web application on `localhost:8080`
 
-# Some Observations about this project
-This project is part of my personal portfolio, I'm trying improve my skills, so, I'll be happy if you could provide me any feedback about the project.
-
-You can report that could make me a better developer!
-
-Email-me: ricardovasconcelos.dev@gmail.com
-
-Connect with me at Linkedin: https://www.linkedin.com/in/ricardo-vasconcelos/
-
-Also, you can use this Project as you wish!!
-
-It's free!
