@@ -1,5 +1,5 @@
 # Netflix Clone
-[![Watch the video](https://i.imgur.com/ONOmMqc.png)](https://youtu.be/LAnsf9VhVzs)
+Add a screen shot of the app here when done
 
 # About this Project
 This project is Netflix simple clone built with Vuejs
