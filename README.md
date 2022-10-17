@@ -1,4 +1,4 @@
-# Vueflix
+# Netflix Clone
 [![Watch the video](https://i.imgur.com/ONOmMqc.png)](https://youtu.be/LAnsf9VhVzs)
 
 # About this Project
