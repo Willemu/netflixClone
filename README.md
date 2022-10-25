@@ -3,6 +3,15 @@ Add a screen shot of the app here when done
 
 # About this Project
 This project is Netflix simple clone built with Vuejs
+Added styles.css
+added index.html
+Added index.js
+So all front end components are working accordingly.
+ todo
+Link all back en components
+Link API keys
+Add sign-up process
+Add back-end content.
 
 # Features
 
