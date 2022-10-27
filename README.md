@@ -1,3 +1,8 @@
+# Username and password
+Use the following username and password to Sign into the application:
+Username:
+Passowrd:
+
 # Netflix Clone
 Add a screen shot of the app here when done
 

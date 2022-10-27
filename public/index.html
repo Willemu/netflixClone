@@ -17,6 +17,7 @@
     <title>Netflix Centurion - Watch TV Shows Online, Watch Movies Online</title>
     <link rel="icon" href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png">
   </head>
+
   <body>
     <header>
       <nav class="navbar">
@@ -43,8 +44,10 @@
             </div>
           </div>
 
+ <!-- From the sign in button, link all the back end functionality
+      Add id for sign in button and link the js script to perform the function-->
           <div class="nav__item">
-            <button class="signin__button">Sign in</button>
+            <button class="signin__button" id="signin-btn">Sign in</button>
           </div>
         </div>
       </nav>
@@ -64,7 +67,7 @@
         <div class="hero__card">
           <h1 class="hero__title">
             Unlimited Movies TV,<br />
-            Shows and More.
+            Shows and More...
           </h1>
           <p class="hero__subtitle">Watch anywhere and cancel anytime.</p>
           <p class="hero__description">
@@ -309,7 +312,7 @@
 
     <footer>
       <div class="footer__row__1">
-        <h4>Questions? Call 000-800-040-1843</h4>
+        <h4>Questions? Call 0800-040-1843</h4>
       </div>
       <div class="footer__row__2">
         <div class="column__1">
@@ -355,5 +358,6 @@
     </footer>
 
     <script src="src/index.js"></script>
+    <script src="https://unpkg.com/vue"></script>
   </body>
 </html>
