@@ -140,9 +140,23 @@ span.psw {
   font-size: 35px;
   font-weight: bold;
 }
-
+/* The Close Get Started Button (x) */
+.close_get_started_btn {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: red;
+  font-size: 35px;
+  font-weight: bold;
+}
 .close:hover,
 .close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+.close_get_started_btn:hover,
+.close_get_started_btn:focus {
   color: red;
   cursor: pointer;
 }
@@ -281,6 +295,7 @@ span.psw {
     border-radius: 2px;
     font-size: 15px;
     letter-spacing: 1px;
+    position: relative;
   }
   
   .feature {

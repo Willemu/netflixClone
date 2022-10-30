@@ -28,3 +28,6 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+// Get the get started modal
+var modal = document.getElementById('get_started_btn');
+

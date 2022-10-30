@@ -57,12 +57,12 @@
           <!-- The Modal -->
             <div id="signin-btn" class="modal">
               <span onclick="document.getElementById('signin-btn').style.display='none'"
-                class="close" title="Close Modal">&times;</span>
+                class="close" title="Close">&times;</span>
 
           <!-- Modal Content -->
               <form class="modal-content animate" action="/action_page.php">
                 <div class="imgcontainer">
-                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                <img src="src/assets/img_avatar2.png" alt="Avatar" class="avatar">
                 </div>
 
               <div class="container">
@@ -117,12 +117,42 @@
               <input type="email" class="email__input" placeholder=" " />
               <label class="email__label">Email Address</label>
             </div>
-            <button class="primary__button">
-              Get Started <i class="fal fa-chevron-right"></i>
-            </button>
-          </div>
+
+            <!-- The get started button -->
+            <div id="getstarted">
+                <button onclick="document.getElementById('get_started_btn').style.display='block'" 
+                style="width:auto;" class="primary__button">
+                Get Started <i class="fal fa-chevron-right"></i></button>            
+              
+  
+            <!-- The get started Modal -->
+                <div id="get_started_btn" class="modal">
+                  <span onclick="document.getElementById('get_started_btn').style.display='none'"
+                  class="close_get_started_btn" title="Close">&times;</span>
+  
+            <!-- Get started Modal Content -->
+                <form class="modal-content animate" action="/action_page.php">
+                  <div class="imgcontainer">
+                    <img src="src/assets/img_avatar2.png" alt="Avatar" class="avatar">
+                  </div>
+  
+                  <div class="container">
+                    <label for="uname"><b>E-mail Address</b></label>
+                    <input type="text" placeholder="Enter your e-mail address" name="uname" required>
+  
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password Again" name="psw" required>
+
+                    <button type="submit">Submit</button>
+                  </div>
+                </div>
+           </div>
         </div>
       </section>
+
       <section class="features__container">
         <!-- Feature 1 -->
         <div class="feature">
